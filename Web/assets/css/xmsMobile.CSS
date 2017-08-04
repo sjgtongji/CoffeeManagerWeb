@@ -1,0 +1,32 @@
+﻿/*该文件，主要用于移动端的CSS，基础是xmsCore.css*/
+ul{margin:0px;padding:0px;list-style:none;}
+/*页面结构相关的CSS开始*/
+.frame-wrapper {position: fixed;z-index: 1;top: 0px;bottom: 0px;left: 0px;width: 100%;overflow: hidden;}
+
+.frame-scroller {position: absolute;z-index: 1;top:0px;left:0px;right:0px;width: 100%;bottom:0px;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-transform: translateZ(0);-moz-transform: translateZ(0);-ms-transform: translateZ(0);-o-transform: translateZ(0);transform: translateZ(0);-webkit-touch-callout: none;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-webkit-text-size-adjust: none;-moz-text-size-adjust: none;-ms-text-size-adjust: none;-o-text-size-adjust: none;text-size-adjust: none;overflow:hidden;background-color:#f5f5f9;}
+
+.frame-header,.frame-indicator,.frame-content,.frame-footer{position:fixed;left:0px;right:0px;z-index:1;}
+.frame-header{top:0px;line-height:44px;padding-top:35px;text-overflow: ellipsis;white-space: nowrap;overflow:hidden;z-index:3;}
+.frame-indicator{z-index: 2;top: 44px;overflow: hidden;}
+.frame-content{z-index: 1;top:0px;bottom:0px;}
+.frame-footer{bottom:0px;}
+.frame-container{position:relative;padding-bottom:0px;}
+
+.frame-scroll-down-ele, .frame-scroll-up-ele {position: absolute;left: 0px;width: 100%;}
+
+.frame-scroll-down-ele {top: -1000px;}
+.frame-scroll-up-ele {bottom: -1000px;}
+/*页面结构相关的CSS结束*/
+
+/* xmsBox 弹窗 */
+.xms-overlay{position: fixed;left: 0;top: 0;right: 0;bottom: 0;background-color: rgba(0,0,0,0.3);z-index: 2;}
+.xms-box{position: fixed;/*max-width: 60%;*/font-size: 16px;/*overflow: hidden;*/z-index: 3;}
+.xms-box-title{padding: 10px 40px 10px 10px;}
+.xms-box-close{width: 30px;height: 30px;line-height: 30px;text-align: center;float: right;}
+.xms-box-text{padding: 10px 15px;clear: both;}
+.xms-box-footer{padding: 10px 0;line-height: 22px;text-align: center;}
+.xms-box-btn{display: inline-block;width: 50%;color: #333;text-align: center;}
+.xms-box-remind{min-width: 200px;line-height: 26px;text-align: center;color: #fff;background-color: #5e5e5e;border-radius: 5px;}
+.xms-box-alert{min-width: 200px;color: #757575;background-color: #ebebeb;border-radius: 5px;}
+.xms-box-prompt-input{width: 100%;padding: 5px 10px;border-radius: 5px;border: none;border: 1px solid #ccc;}
+

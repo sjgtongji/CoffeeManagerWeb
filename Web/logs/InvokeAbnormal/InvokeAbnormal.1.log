@@ -1,0 +1,15 @@
+﻿06-04 21:30:50.948 INFO  Release  InvokeAbnormal - Invoke_Interface:GetManagers=3413,InvokeStartTime=2017-06-04 21:30:39:380
+InvokeParas:id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1
+	AsyncOpen=2302	invoke=1101
+06-04 21:30:58.252 INFO  Release  InvokeAbnormal - Invoke_Interface:GetRestaurantById=2041,InvokeStartTime=2017-06-04 21:30:56:210
+InvokeParas:resId=26
+	invoke=14
+06-04 21:31:04.762 INFO  Release  InvokeAbnormal - Invoke_Interface:GetCResCoordinateList=2815,InvokeStartTime=2017-06-04 21:30:59:622
+InvokeParas:id=NULL, resUUID="66de6c00-407c-4997-8bbe-ec09a3c8a7e5", longitude=NULL, latitude=NULL, markUUID=NULL
+	invoke=19
+06-04 21:31:05.859 INFO  Release  InvokeAbnormal - Invoke_Interface:GetCResCoordinateList=2366,InvokeStartTime=2017-06-04 21:31:02:406
+InvokeParas:id=NULL, resUUID="66de6c00-407c-4997-8bbe-ec09a3c8a7e5", longitude=NULL, latitude=NULL, markUUID=NULL
+	invoke=19
+06-04 21:31:23.920 INFO  Release  InvokeAbnormal - Invoke_Interface:GetManagers=11770,InvokeStartTime=2017-06-04 21:31:12:123
+InvokeParas:id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1
+	invoke=17

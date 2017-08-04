@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="CoordinateAjax.aspx.cs" Inherits="Ajax_CoordinateAjax" %>

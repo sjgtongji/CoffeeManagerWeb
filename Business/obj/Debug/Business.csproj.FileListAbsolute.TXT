@@ -1,0 +1,110 @@
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Business.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Business.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\BasePage.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\NPOI.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\NPOI.OOXML.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\SMSAPI.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\URLRewriter.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\UserAPI.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Article.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Award.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.CashCoupon.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Common.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.OrderDmain.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Partner.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.ResFood.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.ResPicService.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Restaurant.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Core.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Core.PayCenter.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Foundation.SMSProxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.EnterPriseProxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.O2OServiceProxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.PartnerServiceProxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.PrepaymentProxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.RestaurantProxys.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.BossAppService.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.Core.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.File.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.FreeBook.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.FreeOrder.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.MainAPP.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.RealTimeBooking.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.SearchService.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.WeiXin.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Member.Proxy.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\AdvertiseAPI.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Fg114User.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\NPOI.OpenXmlFormats.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\NPOI.OpenXml4Net.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Castle.Windsor.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\log4net.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Enyim.Caching.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\EntityFramework.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Castle.Core.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\ZooKeeperNet.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\RabbitMQ.Client.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\SMSAPI.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\UserAPI.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Foundation.SMSProxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.EnterPriseProxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.O2OServiceProxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.PartnerServiceProxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.PrepaymentProxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Inner.RestaurantProxys.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.Core.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Article.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Award.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.CashCoupon.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Common.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.OrderDmain.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Partner.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.ResFood.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.ResPicService.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Restaurant.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Core.PayCenter.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.BossAppService.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.File.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.FreeBook.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.FreeOrder.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.MainAPP.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.RealTimeBooking.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.SearchService.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Portal.WeiXin.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\URLRewriter.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Core.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\XMS.Core.xml
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\WCF.Portal.Member.Proxy.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Castle.Windsor.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Castle.Windsor.xml
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\log4net.xml
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Enyim.Caching.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\EntityFramework.xml
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Castle.Core.pdb
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\Castle.Core.xml
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\bin\Debug\RabbitMQ.Client.xml
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\obj\Debug\Business.dll
+D:\changhao_fg114-PC_1753\changhao_fg114-PC_1753\OuterWorkspace\ManagerWeb\FreeBookInnerManagerWeb\Business\obj\Debug\Business.pdb
+E:\项目管理\咖啡\05 代码\CoffeeManagerWeb\Business\bin\Debug\Business.dll
+E:\项目管理\咖啡\05 代码\CoffeeManagerWeb\Business\bin\Debug\Business.pdb
+E:\项目管理\咖啡\05 代码\CoffeeManagerWeb\Business\bin\Debug\WCF.Coffee.Proxy.dll
+E:\项目管理\咖啡\05 代码\CoffeeManagerWeb\Business\bin\Debug\WCF.Coffee.Proxy.pdb
+E:\项目管理\咖啡\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\项目管理\咖啡\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.dll
+E:\项目管理\咖啡\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+D:\项目管理\咖啡1\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeManagerWeb\Business\bin\Debug\Business.dll
+D:\项目管理\咖啡1\05 代码\CoffeeManagerWeb\Business\bin\Debug\Business.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeManagerWeb\Business\bin\Debug\WCF.Coffee.Proxy.dll
+D:\项目管理\咖啡1\05 代码\CoffeeManagerWeb\Business\bin\Debug\WCF.Coffee.Proxy.pdb
+D:\项目管理\咖啡1\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.dll
+E:\项目\咖啡1\05 代码\CoffeeManagerWeb\Business\bin\Debug\Business.dll
+E:\项目\咖啡1\05 代码\CoffeeManagerWeb\Business\bin\Debug\Business.pdb
+E:\项目\咖啡1\05 代码\CoffeeManagerWeb\Business\bin\Debug\WCF.Coffee.Proxy.dll
+E:\项目\咖啡1\05 代码\CoffeeManagerWeb\Business\bin\Debug\WCF.Coffee.Proxy.pdb
+E:\项目\咖啡1\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+E:\项目\咖啡1\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.dll
+E:\项目\咖啡1\05 代码\CoffeeManagerWeb\Business\obj\Debug\Business.pdb

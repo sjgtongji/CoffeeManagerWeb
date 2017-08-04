@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Ajax_CouponDetailAjax, App_Web_coupondetailajax.aspx.3cd2a9ac" %>

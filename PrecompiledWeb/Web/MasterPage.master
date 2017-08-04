@@ -1,0 +1,119 @@
+﻿<%@ master language="C#" autoeventwireup="true" inherits="MasterPage, App_Web_masterpage.master.cdcab7d2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+    <title>商户平台管理——BuzztimeCoffee运营后台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/bootstrap.min.css"%>" />
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/font-awesome.min.css"%>" />
+    <link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/jquery-ui-1.10.3.full.min.css"%>" />
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/chosen.css"%>" />
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/datepicker.css"%>" />
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/bootstrap-timepicker.css"%>" />
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/daterangepicker.css"%>" />
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/colorpicker.css"%>" />
+    <%--<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />--%>
+    <%--<link rel="Stylesheet" href="assets/css/fontsgoogleapis.css" />--%>
+    <link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/ace.min.css"%>" />
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/ace-rtl.min.css"%>" />
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/ace-skins.min.css"%>" />      
+	<%--<link rel="stylesheet" href="assets/css/qunit-1.11.0.css" />      
+	<link rel="stylesheet" href="<%=Business.CoffeePage.VirtulName+"/assets/css/bootstrapv3.min.css" />--%>  
+
+    <script src="<%=Business.CoffeePage.VirtulName+"/assets/js/ace-extra.min.js"%>"></script>  
+<%--    <script src="<%=Business.CoffeePage.VirtulName+"/assets/js/jquery.js"%>"></script>  
+    <script src="<%=Business.CoffeePage.VirtulName+"/assets/js/main.js"%>"></script>  --%>
+
+    <asp:ContentPlaceHolder id="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- 头部部分 -->
+    <div class="navbar navbar-default" id="navbar">
+		<script type="text/javascript">		    try { ace.settings.check('navbar', 'fixed') } catch (e) { }</script>
+
+		<div class="navbar-container" id="navbar-container">
+			<div class="navbar-header pull-left">
+				<a href="#" class="navbar-brand">
+					<small> <img class="nav-user-photo" src="<%=Business.CoffeePage.VirtulName %>/assets/images/logo.jpg" alt="BuzztimeCoffee运营后台" width="49px" heigh="40px" />
+						BuzztimeCoffee运营后台
+					</small>
+				</a>
+			</div>
+			<div class="navbar-header pull-right" role="navigation">
+				<ul class="nav ace-nav">
+					<li class="light-blue">
+						<a data-toggle="dropdown" href="#" class="dropdown-toggle">							
+							<span class="user-info">
+								<small>欢迎,<%=Manager.Name%></small>
+							</span>
+							<i class="icon-caret-down"></i>
+						</a>
+						<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">				
+							<li>
+								<a href="<%=Business.CoffeePage.VirtulName %>/Login.aspx?act=relogin">
+									<i class="icon-off"></i>
+									退出账号
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+    <div class="rel">
+        <asp:ContentPlaceHolder id="MainContent" runat="server">
+        <!--页面正文区域-->
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='<%=Business.CoffeePage.VirtulName %>/assets/js/jquery-2.0.3.min.js'>" + "<" + "/script>");
+	</script>
+
+    <script type="text/javascript">
+        if ("ontouchend" in document) document.write("<script src='<%=Business.CoffeePage.VirtulName %>/assets/js/jquery.mobile.custom.min.js'>" + "<" + "/script>");
+	</script>
+
+    <%--<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>--%>
+    <script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.min.js"></script>
+    <script src="<%=Business.CoffeePage.VirtulName%>/assets/js/bootstrap.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/typeahead-bs2.min.js"></script>
+    <script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery-ui-1.10.3.full.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.ui.touch-punch.min.js"></script>
+    <script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.dataTables.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.dataTables.bootstrap.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/chosen.jquery.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/fuelux/fuelux.spinner.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/date-time/bootstrap-datepicker.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/date-time/bootstrap-timepicker.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/date-time/moment.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/date-time/daterangepicker.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/bootstrap-colorpicker.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.knob.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.autosize.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.inputlimiter.1.3.1.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.maskedinput.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/bootstrap-tag.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/jquery.hotkeys.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/bootstrap-wysiwyg.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/bootbox.min.js"></script>
+	<%--<script src="assets/js/bootstrapv3.js"></script>--%>
+
+	<!-- ace scripts -->
+
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/ace-elements.min.js"></script>
+	<script src="<%=Business.CoffeePage.VirtulName%>/assets/js/ace.min.js"></script>
+    
+
+    <asp:ContentPlaceHolder id="FootContent" runat="server">
+    <!--页面js脚本区域-->    
+    
+    </asp:ContentPlaceHolder>
+</body>
+</html>

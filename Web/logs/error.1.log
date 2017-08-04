@@ -1,0 +1,154 @@
+06-02 17:51:25.414 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetBusinessHourWeeksByResUUID(resUUID="66de6c00-407c-4997-8bbe-ec09a3c8a7e5")，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	40.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:51:25.374	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			17:51:25.374	Invoke
+			17:51:25.414	Invoke Complete
+			17:51:25.414	CloseWrapper_WhenSuc
+			17:51:25.414	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.BusinessHourWeekPO is invalid, please ensure it has been registered to the container."
+
+06-02 17:51:28.798 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetAllBusinessHourTypesByResUUID(resUUID="26")，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	36.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:51:28.762	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			17:51:28.763	Invoke
+			17:51:28.798	Invoke Complete
+			17:51:28.798	CloseWrapper_WhenSuc
+			17:51:28.798	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.BusinessHourWeekPO is invalid, please ensure it has been registered to the container."
+
+06-02 17:51:42.475 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetAllBusinessHourTypesByResUUID(resUUID="26")，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	11.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:51:42.464	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			17:51:42.464	Invoke
+			17:51:42.475	Invoke Complete
+			17:51:42.475	CloseWrapper_WhenSuc
+			17:51:42.475	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.BusinessHourWeekPO is invalid, please ensure it has been registered to the container."
+
+06-02 17:52:24.159 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetBusinessHourWeeksByResUUID(resUUID="26")，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	16.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:52:24.143	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			17:52:24.143	Invoke
+			17:52:24.159	Invoke Complete
+			17:52:24.159	CloseWrapper_WhenSuc
+			17:52:24.159	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.BusinessHourWeekPO is invalid, please ensure it has been registered to the container."
+
+06-02 17:52:31.562 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetBusinessHourWeeksByResUUID(resUUID="26")，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	11.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:52:31.551	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			17:52:31.551	Invoke
+			17:52:31.561	Invoke Complete
+			17:52:31.561	CloseWrapper_WhenSuc
+			17:52:31.561	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.BusinessHourWeekPO is invalid, please ensure it has been registered to the container."
+
+06-02 17:55:57.169 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetBusinessHourWeeksByResUUID(resUUID="26")，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	74.004 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			17:55:57.095	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			17:55:57.095	Invoke
+			17:55:57.169	Invoke Complete
+			17:55:57.169	CloseWrapper_WhenSuc
+			17:55:57.169	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="The type XMS.Inner.Coffee.Model.BusinessHourWeekPO is invalid, please ensure it has been registered to the container."
+
+06-02 22:26:41.401 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetBusinessHourWeekList(id=NULL, uUID={"532e2817-c5c7-4261-a43e-be3ba9d67a67"}, resUUID={"66de6c00-407c-4997-8bbe-ec09a3c8a7e5"}, typeUUID=NULL)，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	342.020 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			22:26:41.063	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			22:26:41.064	AsyncOpen
+			22:26:41.066	AsyncOpen-Begin
+			22:26:41.069	Async-OpenChannel
+			22:26:41.087	Async-OpenChannel-Success
+			22:26:41.087	Async-Pulse
+			22:26:41.087	AsyncOpen-Sucess
+			22:26:41.088	AsyncOpen Complete
+			22:26:41.088	Invoke
+			22:26:41.364	Invoke Complete
+			22:26:41.364	CloseWrapper_WhenSuc
+			22:26:41.366	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="属性 XMS.Inner.Coffee.Model.BusinessHourWeekPO.InAdvance 的类型为 System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]，不支持将该类型映射为 Int32"
+
+06-02 22:26:41.401 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetBusinessHourWeekList(id=NULL, uUID={"532e2817-c5c7-4261-a43e-be3ba9d67a67"}, resUUID={"66de6c00-407c-4997-8bbe-ec09a3c8a7e5"}, typeUUID=NULL)，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	342.020 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			22:26:41.063	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			22:26:41.064	AsyncOpen
+			22:26:41.066	AsyncOpen-Begin
+			22:26:41.069	Async-OpenChannel
+			22:26:41.087	Async-OpenChannel-Success
+			22:26:41.087	Async-Pulse
+			22:26:41.087	AsyncOpen-Sucess
+			22:26:41.088	AsyncOpen Complete
+			22:26:41.088	Invoke
+			22:26:41.364	Invoke Complete
+			22:26:41.364	CloseWrapper_WhenSuc
+			22:26:41.366	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="属性 XMS.Inner.Coffee.Model.BusinessHourWeekPO.InAdvance 的类型为 System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]，不支持将该类型映射为 Int32"
+
+06-02 22:26:44.733 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetBusinessHourWeekList(id=NULL, uUID={"532e2817-c5c7-4261-a43e-be3ba9d67a67"}, resUUID={"66de6c00-407c-4997-8bbe-ec09a3c8a7e5"}, typeUUID=NULL)，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	29.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			22:26:44.706	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			22:26:44.706	Invoke
+			22:26:44.733	Invoke Complete
+			22:26:44.733	CloseWrapper_WhenSuc
+			22:26:44.733	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="属性 XMS.Inner.Coffee.Model.BusinessHourWeekPO.InAdvance 的类型为 System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]，不支持将该类型映射为 Int32"
+
+06-02 22:27:23.526 ERROR Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetBusinessHourWeekList(id=NULL, uUID={"532e2817-c5c7-4261-a43e-be3ba9d67a67"}, resUUID={"66de6c00-407c-4997-8bbe-ec09a3c8a7e5"}, typeUUID=NULL)，但服务器返回 404 或 500 错误，请求的远程服务地址和结果情况如下：
+		调用耗时：	32.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			22:27:23.494	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			22:27:23.494	Invoke
+			22:27:23.526	Invoke Complete
+			22:27:23.526	CloseWrapper_WhenSuc
+			22:27:23.526	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=500,
+				Value=NULL,
+				Message="属性 XMS.Inner.Coffee.Model.BusinessHourWeekPO.InAdvance 的类型为 System.Nullable`1[[System.Decimal, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]，不支持将该类型映射为 Int32"
+

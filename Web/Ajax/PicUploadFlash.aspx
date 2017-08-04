@@ -1,0 +1,2 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="PicUploadFlash.aspx.cs" Inherits="Ajax_PicUploadFlash" %>
+<%="{\"succ\":\"" + isSucc.ToString() + "\",\"msg\":\"" + MSG + "\",\"foodId\":\"" + dishId.ToString() + "\", \"imagesrc\":\"" + imagePath + "\"}"%>

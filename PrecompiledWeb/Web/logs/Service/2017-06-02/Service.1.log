@@ -1,0 +1,1055 @@
+06-03 15:50:42.869 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	455.026 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:42.417	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			15:50:42.417	AsyncOpen
+			15:50:42.419	AsyncOpen-Begin
+			15:50:42.422	Async-OpenChannel
+			15:50:42.439	Async-OpenChannel-Success
+			15:50:42.439	Async-Pulse
+			15:50:42.439	AsyncOpen-Sucess
+			15:50:42.439	AsyncOpen Complete
+			15:50:42.439	Invoke
+			15:50:42.847	Invoke Complete
+			15:50:42.847	CloseWrapper_WhenSuc
+			15:50:42.849	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:50:42.959 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	18.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:42.941	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:50:42.942	Invoke
+			15:50:42.959	Invoke Complete
+			15:50:42.959	CloseWrapper_WhenSuc
+			15:50:42.959	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:50:43.079 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	103.006 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:42.974	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:50:42.974	Invoke
+			15:50:43.077	Invoke Complete
+			15:50:43.077	CloseWrapper_WhenSuc
+			15:50:43.077	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:50:43.098 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	18.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:43.080	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:50:43.081	Invoke
+			15:50:43.098	Invoke Complete
+			15:50:43.098	CloseWrapper_WhenSuc
+			15:50:43.098	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:50:44.829 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.816	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:50:44.816	Invoke
+			15:50:44.829	Invoke Complete
+			15:50:44.829	CloseWrapper_WhenSuc
+			15:50:44.829	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:50:44.856 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	25.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.831	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			15:50:44.831	Invoke
+			15:50:44.856	Invoke Complete
+			15:50:44.856	CloseWrapper_WhenSuc
+			15:50:44.856	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:50:44.863 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	43.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.819	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			15:50:44.819	AsyncOpen
+			15:50:44.819	AsyncOpen-Begin
+			15:50:44.824	Async-OpenChannel
+			15:50:44.848	Async-OpenChannel-Success
+			15:50:44.848	Async-Pulse
+			15:50:44.848	AsyncOpen-Sucess
+			15:50:44.848	AsyncOpen Complete
+			15:50:44.848	Invoke
+			15:50:44.862	Invoke Complete
+			15:50:44.862	CloseWrapper_WhenSuc
+			15:50:44.862	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:50:44.868 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	11.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.857	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Opened
+			15:50:44.857	Invoke
+			15:50:44.868	Invoke Complete
+			15:50:44.868	CloseWrapper_WhenSuc
+			15:50:44.868	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:50:44.874 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	29.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.844	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Created
+			15:50:44.844	AsyncOpen
+			15:50:44.844	AsyncOpen-Begin
+			15:50:44.844	Async-OpenChannel
+			15:50:44.863	Async-OpenChannel-Success
+			15:50:44.863	Async-Pulse
+			15:50:44.863	AsyncOpen-Sucess
+			15:50:44.863	AsyncOpen Complete
+			15:50:44.863	Invoke
+			15:50:44.873	Invoke Complete
+			15:50:44.873	CloseWrapper_WhenSuc
+			15:50:44.873	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:50:44.882 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	18.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.864	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Opened
+			15:50:44.864	Invoke
+			15:50:44.882	Invoke Complete
+			15:50:44.882	CloseWrapper_WhenSuc
+			15:50:44.882	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:50:44.894 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=1000, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.881	Intercept-Begin,BusyCount=2;IdleCount=1;Channel state:Opened
+			15:50:44.881	Invoke
+			15:50:44.894	Invoke Complete
+			15:50:44.894	CloseWrapper_WhenSuc
+			15:50:44.894	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:50:44.895 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	12.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.883	Intercept-Begin,BusyCount=2;IdleCount=1;Channel state:Opened
+			15:50:44.883	Invoke
+			15:50:44.895	Invoke Complete
+			15:50:44.895	CloseWrapper_WhenSuc
+			15:50:44.895	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:50:44.964 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetOrderDTOs(id=NULL, orderUUID=NULL, resUUID="", memberUUID=NULL, memberName=NULL, telephone=NULL, minCreateTime='2017/6/3 0:00:00', MaxCreateTime='2017/6/3 23:59:59', orderState={}, payStatus={1, 2}, payType=NULL, deliveryType={}, cityId=NULL, memberAddressUUID=NULL, couponUUID=NULL, preferentialType=NULL, startIndex=1, count=20, orderCommodityRelationFlag=true, memberAddressFlag=true)，请求的远程服务地址和结果情况如下：
+		调用耗时：	65.004 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.899	Intercept-Begin,BusyCount=1;IdleCount=2;Channel state:Opened
+			15:50:44.899	Invoke
+			15:50:44.964	Invoke Complete
+			15:50:44.964	CloseWrapper_WhenSuc
+			15:50:44.964	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: NULL, TotalCount: 0},
+				Message=NULL
+
+06-03 15:50:44.978 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	11.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:50:44.967	Intercept-Begin,BusyCount=1;IdleCount=2;Channel state:Opened
+			15:50:44.967	Invoke
+			15:50:44.978	Invoke Complete
+			15:50:44.978	CloseWrapper_WhenSuc
+			15:50:44.978	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:51:01.351 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:51:01.337	Intercept-Begin,BusyCount=1;IdleCount=2;Channel state:Opened
+			15:51:01.337	Invoke
+			15:51:01.351	Invoke Complete
+			15:51:01.351	CloseWrapper_WhenSuc
+			15:51:01.351	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:53:17.537 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	43.003 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:53:17.494	Intercept-Begin,BusyCount=1;IdleCount=2;Channel state:Opened
+			15:53:17.494	Invoke
+			15:53:17.500	CloseWrapper_WhenFail
+			15:53:17.511	Proxy-Dispose-Begin
+			15:53:17.512	Proxy-Dispose-End
+			15:53:17.512	CloseWrapper_WhenFail Complete
+			15:53:17.512	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			15:53:17.512	AsyncOpen
+			15:53:17.512	AsyncOpen-Begin
+			15:53:17.513	Async-OpenChannel
+			15:53:17.525	Async-OpenChannel-Success
+			15:53:17.525	Async-Pulse
+			15:53:17.525	AsyncOpen-Sucess
+			15:53:17.525	AsyncOpen Complete
+			15:53:17.525	Invoke
+			15:53:17.537	Invoke Complete
+			15:53:17.537	CloseWrapper_WhenSuc
+			15:53:17.537	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:11.718 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	16.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:11.702	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:54:11.703	Invoke
+			15:54:11.718	Invoke Complete
+			15:54:11.718	CloseWrapper_WhenSuc
+			15:54:11.718	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:12.998 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	25.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:12.972	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			15:54:12.972	AsyncOpen
+			15:54:12.972	AsyncOpen-Begin
+			15:54:12.973	Async-OpenChannel
+			15:54:12.986	Async-OpenChannel-Success
+			15:54:12.986	Async-Pulse
+			15:54:12.986	AsyncOpen-Sucess
+			15:54:12.986	AsyncOpen Complete
+			15:54:12.986	Invoke
+			15:54:12.997	Invoke Complete
+			15:54:12.997	CloseWrapper_WhenSuc
+			15:54:12.997	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:13.024 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	21.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:13.002	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:54:13.002	Invoke
+			15:54:13.023	Invoke Complete
+			15:54:13.023	CloseWrapper_WhenSuc
+			15:54:13.023	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:54:13.038 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:13.024	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:54:13.025	Invoke
+			15:54:13.037	Invoke Complete
+			15:54:13.037	CloseWrapper_WhenSuc
+			15:54:13.037	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:14.391 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.378	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:54:14.378	Invoke
+			15:54:14.391	Invoke Complete
+			15:54:14.391	CloseWrapper_WhenSuc
+			15:54:14.391	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:14.411 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	15.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.396	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:54:14.396	Invoke
+			15:54:14.411	Invoke Complete
+			15:54:14.411	CloseWrapper_WhenSuc
+			15:54:14.411	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:54:14.425 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.412	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			15:54:14.412	Invoke
+			15:54:14.425	Invoke Complete
+			15:54:14.425	CloseWrapper_WhenSuc
+			15:54:14.425	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:14.428 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	25.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.403	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Created
+			15:54:14.403	AsyncOpen
+			15:54:14.403	AsyncOpen-Begin
+			15:54:14.403	Async-OpenChannel
+			15:54:14.416	Async-OpenChannel-Success
+			15:54:14.416	Async-Pulse
+			15:54:14.416	AsyncOpen-Sucess
+			15:54:14.416	AsyncOpen Complete
+			15:54:14.416	Invoke
+			15:54:14.428	Invoke Complete
+			15:54:14.428	CloseWrapper_WhenSuc
+			15:54:14.428	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:14.443 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	12.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.431	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			15:54:14.431	Invoke
+			15:54:14.443	Invoke Complete
+			15:54:14.443	CloseWrapper_WhenSuc
+			15:54:14.443	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:14.453 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	20.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.433	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			15:54:14.433	Invoke
+			15:54:14.453	Invoke Complete
+			15:54:14.453	CloseWrapper_WhenSuc
+			15:54:14.453	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:54:14.461 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=1000, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.447	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			15:54:14.447	Invoke
+			15:54:14.460	Invoke Complete
+			15:54:14.460	CloseWrapper_WhenSuc
+			15:54:14.460	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:54:14.467 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.454	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			15:54:14.454	Invoke
+			15:54:14.467	Invoke Complete
+			15:54:14.467	CloseWrapper_WhenSuc
+			15:54:14.467	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:14.477 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetOrderDTOs(id=NULL, orderUUID=NULL, resUUID="", memberUUID=NULL, memberName=NULL, telephone=NULL, minCreateTime='2017/6/3 0:00:00', MaxCreateTime='2017/6/3 23:59:59', orderState={}, payStatus={1, 2}, payType=NULL, deliveryType={}, cityId=NULL, memberAddressUUID=NULL, couponUUID=NULL, preferentialType=NULL, startIndex=1, count=20, orderCommodityRelationFlag=true, memberAddressFlag=true)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.463	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			15:54:14.463	Invoke
+			15:54:14.477	Invoke Complete
+			15:54:14.477	CloseWrapper_WhenSuc
+			15:54:14.477	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: NULL, TotalCount: 0},
+				Message=NULL
+
+06-03 15:54:14.488 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	9.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:14.478	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			15:54:14.478	Invoke
+			15:54:14.487	Invoke Complete
+			15:54:14.487	CloseWrapper_WhenSuc
+			15:54:14.487	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:17.694 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.680	Intercept-Begin,BusyCount=1;IdleCount=1;Channel state:Opened
+			15:54:17.680	Invoke
+			15:54:17.694	Invoke Complete
+			15:54:17.694	CloseWrapper_WhenSuc
+			15:54:17.694	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:17.696 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.682	Intercept-Begin,BusyCount=2;IdleCount=0;Channel state:Opened
+			15:54:17.682	Invoke
+			15:54:17.695	Invoke Complete
+			15:54:17.695	CloseWrapper_WhenSuc
+			15:54:17.695	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:17.709 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=1000, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.695	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Opened
+			15:54:17.695	Invoke
+			15:54:17.708	Invoke Complete
+			15:54:17.708	CloseWrapper_WhenSuc
+			15:54:17.708	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:54:17.710 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name=NULL, address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=1000, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.696	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Opened
+			15:54:17.696	Invoke
+			15:54:17.709	Invoke Complete
+			15:54:17.709	CloseWrapper_WhenSuc
+			15:54:17.709	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:54:17.719 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	28.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.691	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Created
+			15:54:17.691	AsyncOpen
+			15:54:17.691	AsyncOpen-Begin
+			15:54:17.691	Async-OpenChannel
+			15:54:17.707	Async-OpenChannel-Success
+			15:54:17.707	Async-Pulse
+			15:54:17.708	AsyncOpen-Sucess
+			15:54:17.708	AsyncOpen Complete
+			15:54:17.708	Invoke
+			15:54:17.719	Invoke Complete
+			15:54:17.719	CloseWrapper_WhenSuc
+			15:54:17.719	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:17.721 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetOrderDTOs(id=NULL, orderUUID=NULL, resUUID="", memberUUID=NULL, memberName=NULL, telephone=NULL, minCreateTime='2017/6/3 0:00:00', MaxCreateTime='2017/6/3 23:59:59', orderState={}, payStatus={1, 2}, payType=NULL, deliveryType={}, cityId=NULL, memberAddressUUID=NULL, couponUUID=NULL, preferentialType=NULL, startIndex=1, count=20, orderCommodityRelationFlag=true, memberAddressFlag=true)，请求的远程服务地址和结果情况如下：
+		调用耗时：	11.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.710	Intercept-Begin,BusyCount=2;IdleCount=1;Channel state:Opened
+			15:54:17.710	Invoke
+			15:54:17.721	Invoke Complete
+			15:54:17.721	CloseWrapper_WhenSuc
+			15:54:17.721	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: NULL, TotalCount: 0},
+				Message=NULL
+
+06-03 15:54:17.728 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetOrderDTOs(id=NULL, orderUUID=NULL, resUUID="", memberUUID=NULL, memberName=NULL, telephone=NULL, minCreateTime='2017/6/3 0:00:00', MaxCreateTime='2017/6/3 23:59:59', orderState={}, payStatus={1, 2}, payType=NULL, deliveryType={}, cityId=NULL, memberAddressUUID=NULL, couponUUID=NULL, preferentialType=NULL, startIndex=1, count=20, orderCommodityRelationFlag=true, memberAddressFlag=true)，请求的远程服务地址和结果情况如下：
+		调用耗时：	18.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.710	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Opened
+			15:54:17.710	Invoke
+			15:54:17.728	Invoke Complete
+			15:54:17.728	CloseWrapper_WhenSuc
+			15:54:17.728	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: NULL, TotalCount: 0},
+				Message=NULL
+
+06-03 15:54:17.736 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.722	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Opened
+			15:54:17.722	Invoke
+			15:54:17.736	Invoke Complete
+			15:54:17.736	CloseWrapper_WhenSuc
+			15:54:17.736	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:17.738 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	10.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.728	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Opened
+			15:54:17.729	Invoke
+			15:54:17.738	Invoke Complete
+			15:54:17.738	CloseWrapper_WhenSuc
+			15:54:17.738	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:17.745 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	25.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.720	Intercept-Begin,BusyCount=3;IdleCount=0;Channel state:Opened
+			15:54:17.720	Invoke
+			15:54:17.745	Invoke Complete
+			15:54:17.745	CloseWrapper_WhenSuc
+			15:54:17.745	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:54:17.756 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	10.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:17.746	Intercept-Begin,BusyCount=1;IdleCount=2;Channel state:Opened
+			15:54:17.746	Invoke
+			15:54:17.756	Invoke Complete
+			15:54:17.756	CloseWrapper_WhenSuc
+			15:54:17.756	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:49.640 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	11.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:49.630	Intercept-Begin,BusyCount=1;IdleCount=2;Channel state:Opened
+			15:54:49.630	Invoke
+			15:54:49.639	Invoke Complete
+			15:54:49.639	CloseWrapper_WhenSuc
+			15:54:49.639	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:54:49.679 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantById(resId=26)，请求的远程服务地址和结果情况如下：
+		调用耗时：	33.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:49.645	Intercept-Begin,BusyCount=1;IdleCount=2;Channel state:Opened
+			15:54:49.645	Invoke
+			15:54:49.678	Invoke Complete
+			15:54:49.678	CloseWrapper_WhenSuc
+			15:54:49.678	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26},
+				Message=NULL
+
+06-03 15:54:49.689 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	10.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:54:49.679	Intercept-Begin,BusyCount=1;IdleCount=2;Channel state:Opened
+			15:54:49.680	Invoke
+			15:54:49.689	Invoke Complete
+			15:54:49.689	CloseWrapper_WhenSuc
+			15:54:49.689	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:55:22.503 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	30.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:55:22.474	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			15:55:22.474	AsyncOpen
+			15:55:22.474	AsyncOpen-Begin
+			15:55:22.474	Async-OpenChannel
+			15:55:22.489	Async-OpenChannel-Success
+			15:55:22.489	Async-Pulse
+			15:55:22.490	AsyncOpen-Sucess
+			15:55:22.490	AsyncOpen Complete
+			15:55:22.490	Invoke
+			15:55:22.503	Invoke Complete
+			15:55:22.503	CloseWrapper_WhenSuc
+			15:55:22.503	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:55:22.518 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	10.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:55:22.507	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:55:22.507	Invoke
+			15:55:22.517	Invoke Complete
+			15:55:22.517	CloseWrapper_WhenSuc
+			15:55:22.517	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:56:43.212 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	29.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:56:43.184	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			15:56:43.184	AsyncOpen
+			15:56:43.184	AsyncOpen-Begin
+			15:56:43.184	Async-OpenChannel
+			15:56:43.200	Async-OpenChannel-Success
+			15:56:43.200	Async-Pulse
+			15:56:43.200	AsyncOpen-Sucess
+			15:56:43.200	AsyncOpen Complete
+			15:56:43.200	Invoke
+			15:56:43.212	Invoke Complete
+			15:56:43.212	CloseWrapper_WhenSuc
+			15:56:43.212	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:56:43.267 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	16.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:56:43.251	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:56:43.251	Invoke
+			15:56:43.267	Invoke Complete
+			15:56:43.267	CloseWrapper_WhenSuc
+			15:56:43.267	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:56:43.290 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	19.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:56:43.271	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:56:43.271	Invoke
+			15:56:43.290	Invoke Complete
+			15:56:43.290	CloseWrapper_WhenSuc
+			15:56:43.290	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:56:43.304 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:56:43.291	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:56:43.291	Invoke
+			15:56:43.303	Invoke Complete
+			15:56:43.303	CloseWrapper_WhenSuc
+			15:56:43.303	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:56:50.106 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	12.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:56:50.094	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:56:50.094	Invoke
+			15:56:50.106	Invoke Complete
+			15:56:50.106	CloseWrapper_WhenSuc
+			15:56:50.106	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:56:50.124 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:56:50.110	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:56:50.110	Invoke
+			15:56:50.124	Invoke Complete
+			15:56:50.124	CloseWrapper_WhenSuc
+			15:56:50.124	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:58:12.465 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	45.003 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:58:12.420	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			15:58:12.420	AsyncOpen
+			15:58:12.420	AsyncOpen-Begin
+			15:58:12.421	Async-OpenChannel
+			15:58:12.452	Async-OpenChannel-Success
+			15:58:12.452	Async-Pulse
+			15:58:12.452	AsyncOpen-Sucess
+			15:58:12.452	AsyncOpen Complete
+			15:58:12.452	Invoke
+			15:58:12.465	Invoke Complete
+			15:58:12.465	CloseWrapper_WhenSuc
+			15:58:12.465	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:58:12.478 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	12.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:58:12.467	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:58:12.467	Invoke
+			15:58:12.478	Invoke Complete
+			15:58:12.478	CloseWrapper_WhenSuc
+			15:58:12.478	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:58:15.935 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	14.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:58:15.921	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:58:15.921	Invoke
+			15:58:15.935	Invoke Complete
+			15:58:15.935	CloseWrapper_WhenSuc
+			15:58:15.935	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 15:58:15.958 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetRestaurantDTOByCondition(resUUID=NULL, name="", address=NULL, cityId=NULL, longitude=NULL, latitude=NULL, alphabet=NULL, startIndex=1, count=20, containOutRange=true, state=NULL)，请求的远程服务地址和结果情况如下：
+		调用耗时：	22.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:58:15.936	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:58:15.936	Invoke
+			15:58:15.958	Invoke Complete
+			15:58:15.958	CloseWrapper_WhenSuc
+			15:58:15.958	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{address: "", allowedDistance: 10000.00, alphabet: "系统维护（13817692463）", cityId: "", contactNumber: "", createName: "Name", createTime: '2017/5/27 10:20:58', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170527/7510599d-c55d-4d7b-81a1-7cfb3f3f9a59.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "系统维护（13817692463）", remark: "", resUUID: "66de6c00-407c-4997-8bbe-ec09a3c8a7e5", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:14:29', ExtensionData: {}, id: 26}, {address: "中山东二路58号外滩SOHO-C座B1-30室", allowedDistance: 1.50, alphabet: "外滩SOHO店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/18 17:21:02', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 0.00000000, longitude: 0.00000000, name: "外滩SOHO店", remark: "", resUUID: "a5b39c23-ae2c-4c55-9e5f-33f53a23b178", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/24 12:00:48', ExtensionData: {}, id: 25}, {address: "上海市杨浦区控江路1555号信息科技大厦", allowedDistance: 1.50, alphabet: "控江店", cityId: "上海", contactNumber: "", createName: "Name", createTime: '2017/5/16 16:03:32', distence: "0.0km", douDistence: 0, imgUrl: "", isDelete: false, latitude: 121.52553800, longitude: 31.28060300, name: "控江店", remark: "", resUUID: "f2635626-abd0-4b1e-8317-7d6ca917afff", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/18 17:22:03', ExtensionData: {}, id: 24}, {address: "上海市静安区南京西路1001号(凯司令内)", allowedDistance: 100.00, alphabet: "南京西路店", cityId: "上海", contactNumber: "18001820025;18001919036;13774404161;13816200743;18701869766;15021927907;13482222226;13167282389;17601207103", createName: "0", createTime: '2016/11/16 22:44:39', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20170421/cdcd34a2-c23b-4f1f-b612-b5381b989b65.jpg", isDelete: false, latitude: 121.46457800, longitude: 31.23507400, name: "南京西路店", remark: "", resUUID: "NJXL", serverFee: 0.00, state: 1, updateName: "Name", updateTime: '2017/6/3 12:13:57', ExtensionData: {}, id: 20}, {address: "上海市黄浦区马当路245号新天地时尚广场一楼", allowedDistance: 1.50, alphabet: "新天地时尚店", cityId: "上海", contactNumber: "53099028;18001919036;13166251697;18701869766;13816200743;15021927907;13588622450;17601263252;13167282389", createName: "0", createTime: '2016/11/16 22:42:01', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/XTDSS_1.png", isDelete: false, latitude: 121.48150100, longitude: 31.22371000, name: "新天地时尚店", remark: "", resUUID: "XTDSS", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:57:58', ExtensionData: {}, id: 14}, {address: "上海市长宁区水城路268号家乐福一楼 ", allowedDistance: 1.00, alphabet: "古北家乐福店;古北家乐福店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:38:20', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/GBJLF_1.png", isDelete: false, latitude: 121.40066700, longitude: 31.20241400, name: "古北家乐福店", remark: NULL, resUUID: "GBJLF", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:25', ExtensionData: {}, id: 13}, {address: "上海市静安区吴江路休闲街", allowedDistance: 1.00, alphabet: "吴江路店;吴江路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:07:04', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/WJL_1.png", isDelete: false, latitude: 121.44916000, longitude: 31.23585000, name: "吴江路店", remark: NULL, resUUID: "WJL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:22', ExtensionData: {}, id: 11}, {address: "上海市黄浦区汉口路309号A1-01-1", allowedDistance: 1.00, alphabet: "汉口路店;汉口路店", cityId: "上海", contactNumber: "18001919036", createName: "0", createTime: '2016/11/16 22:01:34', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/HKL_1.png", isDelete: false, latitude: 121.49065200, longitude: 31.24114100, name: "汉口路店", remark: NULL, resUUID: "HKL", serverFee: 0.01, state: 0, updateName: "Name", updateTime: '2016/12/9 9:30:19', ExtensionData: {}, id: 9}, {address: "上海市静安区常德路777号", allowedDistance: 1.50, alphabet: "常德路店", cityId: "上海", contactNumber: "13774404161;18001919036;13816200743;18701869766;15021927907;18001820025;13167282389;17601207103;13166251697", createName: "0", createTime: '2016/11/16 21:56:05', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/images/Shop/CDL_1.png", isDelete: false, latitude: 121.44923900, longitude: 31.23943200, name: "常德路店", remark: "", resUUID: "CDL", serverFee: 0.00, state: 0, updateName: "Name", updateTime: '2017/5/27 8:58:02', ExtensionData: {}, id: 6}, {address: "上海市 浦东国际机场", allowedDistance: 1000000.00, alphabet: "咖啡店 八佰伴", cityId: "上海", contactNumber: "15026648702;15026648703", createName: "自己创建", createTime: '2016/10/1 0:00:00', distence: "0.0km", douDistence: 0, imgUrl: "http://waimai.buzztimecoffee.com/AppWapCoffee/UploadImage/20161229/a2fb880e-547c-436d-b25e-eb6165a2b40e.jpg", isDelete: false, latitude: 10000.00000000, longitude: 1000.00000000, name: "咖啡店 八佰伴", remark: "周末不接受预订1", resUUID: "XXX", serverFee: 0.02, state: 0, updateName: "Name", updateTime: '2017/3/13 20:46:51', ExtensionData: {}, id: 1}}, TotalCount: 10},
+				Message=NULL
+
+06-03 15:58:15.972 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			15:58:15.959	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			15:58:15.959	Invoke
+			15:58:15.972	Invoke Complete
+			15:58:15.972	CloseWrapper_WhenSuc
+			15:58:15.972	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:00:34.600 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	30.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:00:34.570	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:00:34.570	Invoke
+			16:00:34.573	CloseWrapper_WhenFail
+			16:00:34.577	Proxy-Dispose-Begin
+			16:00:34.577	Proxy-Dispose-End
+			16:00:34.577	CloseWrapper_WhenFail Complete
+			16:00:34.577	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			16:00:34.577	AsyncOpen
+			16:00:34.577	AsyncOpen-Begin
+			16:00:34.578	Async-OpenChannel
+			16:00:34.590	Async-OpenChannel-Success
+			16:00:34.590	Async-Pulse
+			16:00:34.590	AsyncOpen-Sucess
+			16:00:34.590	AsyncOpen Complete
+			16:00:34.590	Invoke
+			16:00:34.599	Invoke Complete
+			16:00:34.599	CloseWrapper_WhenSuc
+			16:00:34.599	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:00:34.615 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	10.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:00:34.604	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:00:34.604	Invoke
+			16:00:34.614	Invoke Complete
+			16:00:34.614	CloseWrapper_WhenSuc
+			16:00:34.614	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:01:12.105 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	12.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:01:12.093	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:01:12.093	Invoke
+			16:01:12.105	Invoke Complete
+			16:01:12.105	CloseWrapper_WhenSuc
+			16:01:12.105	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:01:12.118 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	9.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:01:12.109	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:01:12.110	Invoke
+			16:01:12.118	Invoke Complete
+			16:01:12.118	CloseWrapper_WhenSuc
+			16:01:12.118	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:03:23.058 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	39.002 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:03:23.019	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			16:03:23.019	AsyncOpen
+			16:03:23.019	AsyncOpen-Begin
+			16:03:23.026	Async-OpenChannel
+			16:03:23.038	Async-OpenChannel-Success
+			16:03:23.038	Async-Pulse
+			16:03:23.038	AsyncOpen-Sucess
+			16:03:23.038	AsyncOpen Complete
+			16:03:23.038	Invoke
+			16:03:23.058	Invoke Complete
+			16:03:23.058	CloseWrapper_WhenSuc
+			16:03:23.058	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:03:23.077 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	18.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:03:23.059	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:03:23.059	Invoke
+			16:03:23.077	Invoke Complete
+			16:03:23.077	CloseWrapper_WhenSuc
+			16:03:23.077	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:04:04.106 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	12.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:04:04.094	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:04:04.094	Invoke
+			16:04:04.106	Invoke Complete
+			16:04:04.106	CloseWrapper_WhenSuc
+			16:04:04.106	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:04:04.121 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	10.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:04:04.111	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:04:04.111	Invoke
+			16:04:04.121	Invoke Complete
+			16:04:04.121	CloseWrapper_WhenSuc
+			16:04:04.121	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:05:15.098 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	24.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:05:15.075	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Created
+			16:05:15.075	AsyncOpen
+			16:05:15.075	AsyncOpen-Begin
+			16:05:15.075	Async-OpenChannel
+			16:05:15.086	Async-OpenChannel-Success
+			16:05:15.086	Async-Pulse
+			16:05:15.086	AsyncOpen-Sucess
+			16:05:15.086	AsyncOpen Complete
+			16:05:15.086	Invoke
+			16:05:15.098	Invoke Complete
+			16:05:15.098	CloseWrapper_WhenSuc
+			16:05:15.098	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:05:27.499 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	13.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:05:27.487	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:05:27.487	Invoke
+			16:05:27.499	Invoke Complete
+			16:05:27.499	CloseWrapper_WhenSuc
+			16:05:27.499	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+
+06-03 16:06:22.996 DEBUG Release  ServiceRequest - 系统成功调用 XMS.Inner.Coffee.Service.ICoffeeService.GetManagers(id=NULL, name="name", passWord="password", userLevel=NULL, startIndex=1, count=1)，请求的远程服务地址和结果情况如下：
+		调用耗时：	11.001 ms
+	net.tcp://139.196.228.248:52070/CoffeeService
+
+		调用步骤：	
+			16:06:22.985	Intercept-Begin,BusyCount=1;IdleCount=0;Channel state:Opened
+			16:06:22.985	Invoke
+			16:06:22.996	Invoke Complete
+			16:06:22.996	CloseWrapper_WhenSuc
+			16:06:22.996	CloseWrapper_WhenSuc Complete
+		返回结果：	Code=200,
+				Value={ExtensionData: {}, Items: {{CreateName: "dddd", CreateTime: '2016/11/15 0:00:00', IsDelete: false, Name: "Name", PassWord: "PassWord", UpdateName: "dddd", UpdateTime: '2016/11/15 0:00:00', UserLevel: 1, Version: 0, ExtensionData: {}, Id: 2}}, TotalCount: 1},
+				Message=NULL
+

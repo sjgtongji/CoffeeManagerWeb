@@ -1,0 +1,108 @@
+﻿06-02 17:35:06.229 INFO  - 初始化容器。
+06-02 17:35:09.499 INFO  - 初始化配置服务
+06-02 17:35:10.020 INFO  - 注册服务引用。
+06-02 17:35:10.086 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-02 17:35:10.096 INFO  - 绑定服务配置
+06-02 17:35:10.617 INFO  - 容器初始化成功。
+06-02 17:35:10.657 INFO  - 开始监听配置文件变化…
+06-02 17:38:01.603 INFO  - 初始化容器。
+06-02 17:38:02.555 INFO  - 初始化配置服务
+06-02 17:38:02.620 INFO  - 注册服务引用。
+06-02 17:38:02.637 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-02 17:38:02.643 INFO  - 绑定服务配置
+06-02 17:38:02.669 INFO  - 容器初始化成功。
+06-02 17:38:02.675 INFO  - 开始监听配置文件变化…
+06-02 17:41:30.478 INFO  - 初始化容器。
+06-02 17:41:31.040 INFO  - 初始化配置服务
+06-02 17:41:31.113 INFO  - 注册服务引用。
+06-02 17:41:31.131 INFO  - 注册类型为 XMS.Core.Logging.ServiceModel.ILogCenterService 的 WCF 服务。
+06-02 17:41:31.184 ERROR - 注册服务{serviceName=CommonService, serviceType=XMS.Portal.Common.ICommonService, WCF.Portal.Common.Proxy}失败，详细错误信息为：未能加载文件或程序集“WCF.Portal.Common.Proxy”或它的某一个依赖项。系统找不到指定的文件。
+System.IO.FileNotFoundException:未能加载文件或程序集“WCF.Portal.Common.Proxy”或它的某一个依赖项。系统找不到指定的文件。
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMarkHandle stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName, ObjectHandleOnStack type)
+   在 System.RuntimeTypeHandle.GetTypeByName(String name, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark, IntPtr pPrivHostBinder, Boolean loadTypeFromPartialName)
+   在 System.RuntimeType.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   在 System.Type.GetType(String typeName, Boolean throwOnError, Boolean ignoreCase)
+   在 XMS.Core.WCF.Client.ServiceFactories.ConcentratedConfigServiceClient.RegisterServices(Container container)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+System.Exception
+   在 XMS.Core.WCF.Client.ServiceFactories.ConcentratedConfigServiceClient.RegisterServices(Container container)
+   在 XMS.Core.Container.get_Instance()
+
+06-02 17:42:27.012 INFO  - 初始化容器。
+06-02 17:42:27.227 INFO  - 初始化配置服务
+06-02 17:42:27.296 INFO  - 注册服务引用。
+06-02 17:42:27.313 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-02 17:42:27.319 INFO  - 绑定服务配置
+06-02 17:42:27.345 INFO  - 容器初始化成功。
+06-02 17:42:27.350 INFO  - 开始监听配置文件变化…
+06-02 17:45:12.937 INFO  - 初始化容器。
+06-02 17:45:13.149 INFO  - 初始化配置服务
+06-02 17:45:13.212 INFO  - 注册服务引用。
+06-02 17:45:13.229 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-02 17:45:13.234 INFO  - 绑定服务配置
+06-02 17:45:13.262 INFO  - 容器初始化成功。
+06-02 17:45:13.269 INFO  - 开始监听配置文件变化…
+06-02 17:46:06.297 INFO  - 初始化容器。
+06-02 17:46:06.503 INFO  - 初始化配置服务
+06-02 17:46:06.565 INFO  - 注册服务引用。
+06-02 17:46:06.585 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-02 17:46:06.591 INFO  - 绑定服务配置
+06-02 17:46:06.623 INFO  - 容器初始化成功。
+06-02 17:46:06.629 INFO  - 开始监听配置文件变化…
+06-02 21:21:56.523 INFO  - 初始化容器。
+06-02 21:21:57.200 INFO  - 初始化配置服务
+06-02 21:21:57.279 INFO  - 注册服务引用。
+06-02 21:21:57.298 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-02 21:21:57.304 INFO  - 绑定服务配置
+06-02 21:21:57.338 INFO  - 容器初始化成功。
+06-02 21:21:57.380 INFO  - 开始监听配置文件变化…
+06-02 22:03:19.806 INFO  - 初始化容器。
+06-02 22:03:20.088 INFO  - 初始化配置服务
+06-02 22:03:20.158 INFO  - 注册服务引用。
+06-02 22:03:20.175 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-02 22:03:20.181 INFO  - 绑定服务配置
+06-02 22:03:20.210 INFO  - 容器初始化成功。
+06-02 22:03:20.217 INFO  - 开始监听配置文件变化…
+06-02 22:26:39.951 INFO  - 初始化容器。
+06-02 22:26:40.449 INFO  - 初始化配置服务
+06-02 22:26:40.520 INFO  - 注册服务引用。
+06-02 22:26:40.543 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-02 22:26:40.550 INFO  - 绑定服务配置
+06-02 22:26:40.588 INFO  - 容器初始化成功。
+06-02 22:26:40.596 INFO  - 开始监听配置文件变化…
+06-03 14:59:19.588 INFO  - 初始化容器。
+06-03 14:59:20.765 INFO  - 初始化配置服务
+06-03 14:59:20.843 INFO  - 注册服务引用。
+06-03 14:59:20.863 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-03 14:59:20.869 INFO  - 绑定服务配置
+06-03 14:59:20.902 INFO  - 容器初始化成功。
+06-03 14:59:20.908 INFO  - 开始监听配置文件变化…
+06-03 15:50:41.360 INFO  - 初始化容器。
+06-03 15:50:41.653 INFO  - 初始化配置服务
+06-03 15:50:41.726 INFO  - 注册服务引用。
+06-03 15:50:41.745 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-03 15:50:41.750 INFO  - 绑定服务配置
+06-03 15:50:41.780 INFO  - 容器初始化成功。
+06-03 15:50:41.786 INFO  - 开始监听配置文件变化…
+06-04 21:20:13.222 INFO  - 初始化容器。
+06-04 21:20:13.738 INFO  - 初始化配置服务
+06-04 21:20:13.809 INFO  - 注册服务引用。
+06-04 21:20:13.827 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-04 21:20:13.833 INFO  - 绑定服务配置
+06-04 21:20:13.863 INFO  - 容器初始化成功。
+06-04 21:20:13.869 INFO  - 开始监听配置文件变化…
+06-04 21:54:52.586 INFO  - 初始化容器。
+06-04 21:54:52.913 INFO  - 初始化配置服务
+06-04 21:54:52.985 INFO  - 注册服务引用。
+06-04 21:54:53.004 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-04 21:54:53.010 INFO  - 绑定服务配置
+06-04 21:54:53.042 INFO  - 容器初始化成功。
+06-04 21:54:53.049 INFO  - 开始监听配置文件变化…
+06-05 08:50:05.128 INFO  - 初始化容器。
+06-05 08:50:05.436 INFO  - 初始化配置服务
+06-05 08:50:05.507 INFO  - 注册服务引用。
+06-05 08:50:05.526 INFO  - 注册类型为 XMS.Inner.Coffee.Service.ICoffeeService 的 WCF 服务。
+06-05 08:50:05.533 INFO  - 绑定服务配置
+06-05 08:50:05.563 INFO  - 容器初始化成功。
+06-05 08:50:05.570 INFO  - 开始监听配置文件变化…

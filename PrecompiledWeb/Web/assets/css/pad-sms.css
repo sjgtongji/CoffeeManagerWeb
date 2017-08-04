@@ -1,0 +1,371 @@
+﻿body{font-family:'微软雅黑',arial, 'Hiragino Sans GB', 'Microsoft Yahei', '宋体', \5b8b\4f53, Tahoma, Arial, Helvetica, STHeiti;font-size: 100%;}
+.frame-scrollbar{overflow-y: auto;overflow-x: hidden;}
+.frame-scrollbar::-webkit-scrollbar {width: 2px;height: 4px;}
+.frame-scrollbar::-webkit-scrollbar-track {border-radius: 10px;-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);}
+.frame-scrollbar::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,.05);border-radius: 10px;-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1);}
+.frame-scrollbar:hover::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,.2);border-radius: 10px;-webkit-box-shadow: inset 1px 1px 0 rgba(0,0,0,.1);}
+.frame-scrollbar::-webkit-scrollbar-button {height: 0;width: 0;}
+.frame-header{border-bottom:1px solid #aaa;display:none;}
+.frame-content{top:0px;}
+.pad-sms-header-date{width:200px;}
+.pad-sms-header-name{margin-right:200px;}
+
+.c-a9{color:#a9a9a9;}
+.c-fa4f7a{color:#fa4f7a;}
+.c-f8285c{color:#f8285c;}
+.c-007aff{color: #007aff;}
+.c-f72c5f{color: #f72c5f;}
+.f30{font-size: 1.5rem;}
+.f18{font-size: 0.9rem;}
+
+/*icon的图片地址*/
+.icon-arrow-blank{background-image:url(../img/icon-arrow.png);}
+.icon-back-666{background-image:url(../img/icon-back.png);background-position:center center;background-repeat:no-repeat;}
+.icon-time{background-image:url(../img/icon-time.png);background-position:center center;background-repeat:no-repeat;}
+.icon-selected{background-image:url(../img/icon-selected.png);background-position:center center;background-repeat:no-repeat;}
+.icon-weixin{background-image:url(../img/icon-weixin.png);background-position:center center;background-repeat:no-repeat;}
+.icon-zhifubao{background-image:url(../img/icon-zhifubao.png);background-position:center center;background-repeat:no-repeat;}
+.icon-fanhui{background-image:url(../img/icon-fanhui.png);background-position:center center;background-repeat:no-repeat;}
+.icon-edit{background-image:url(../img/icon-edit.png);background-position:center center;background-repeat:no-repeat;}
+.icon-loadding{background:url(../img/loading.gif) center center no-repeat;}
+
+.icon-cost-info{background: url(../img/icon-cost-info.png) center center no-repeat;background-size: 100%;display: block;position: absolute;width: 38px;height: 38px;right: 15px;top: -7px;}
+.icon-cost-info-s{background: url(../img/icon-cost-info-s.png)center center no-repeat;background-size: 75%;display: inline-block;width: 30px;height: 30px;vertical-align: middle;}
+.icon-sms-tel{background: url(../img/icon-tel.png) center center no-repeat;background-size: 100%;display: block;position: absolute;width: 30px;height: 30px;top: -5px;right: 0px;}
+
+.pad-sms-roule{/*font-size: 18px;*/font-size: 0.9rem;text-align: center;color: #999;}
+
+/*左侧导航*/
+.pad-sms-menu-wrapper{position: absolute;top: 0px;bottom: 0px;left: 0px;width:25%;z-index:2;border-right:1px solid #aaaaad;box-sizing: border-box;/*font-weight:bold;*/background-color:#d9d9d9;}
+.pad-sms-nav-list{line-height:70px;/*font-size:30px;*/font-size:1.5rem;background-color:#fff;}
+.pad-sms-nav-list.active{background-color:#d5e9f5;}
+.pad-sms-nav-list.pad-sms-details{line-height:26px;/*font-size:18px;*/font-size: 0.9rem;margin:5px;padding-top:30px;padding-bottom:20px;background-color:#d9d9d9;}
+.pad-sms-line{background-color:#fff;height:10px;}
+.pad-sms-nav-item{margin-left:20px;margin-right:20px;border-bottom:1px solid #d9d9d9;padding-left:75px;}
+.pad-color-077eff{color:#077eff;}
+.pad-color-ff9500{color: #FF9500;}
+.pad-save-money{color:#f8285c;}
+
+.pad-sms-free-icon{background:url(../img/icon-free.png) center center no-repeat;background-size: 100%;width:30px;height:30px;position:absolute;left:60px;top:56%;margin-top:-18px;vertical-align: middle;}
+.pad-sms-header-date-icon{background:url(../img/icon-date.png) center center no-repeat;background-size:80%;width:30px;height:30px;display:inline-block;vertical-align: middle;}
+
+.pad-sms-content-wrapper{position: absolute;top: 0px;bottom: 0px;left: 25%;right: 0px;z-index: 1;}
+.pad-sms-content-header{position:absolute;top:0px;left:0px;right:0px;border-bottom:1px solid #ccc;background-color:#ddd;z-index:2;}
+.pad-sms-content-content{position:absolute;top:0px;bottom:0px;left:1px;right:0px;z-index: 1;overflow:auto;background-color:#efeff4;}
+.pad-sms-content-header-detail{padding:9px 4px;color:#fff;background-color:#007aff;}
+
+.pad-sms-content-content-header{/*overflow:hidden;*/width: 100%;float: left;}
+
+.pad-sms-content-loadding{background:url(../img/loading.gif) center center no-repeat;position:absolute;top:0px;bottom:0px;left: 25%;right:0px;z-index: 3;background-color:rgba(0,0,0,0.5);}
+.pad-sms-load-more{background:url(../img/loading.gif) center center no-repeat;height:30px;background-size:20px;}
+   
+
+.pad-date-picker-wrapper{position:fixed;top:0px;right:0px;bottom:0px;left:0px;z-index:10;background-color:rgba(0,0,0,0.5);display:none;}
+.pad-date-picker-content{position:absolute;top:155px;left:440px;background-color:#fff;color:#000;font-size: 1.2rem;}
+.pad-date-picker-title{line-height:50px;border-bottom:1px solid #999;text-align:center;}
+.pad-date-picker-containter{padding:0px 10px 10px;overflow:hidden;position:relative;}
+
+.pad-date-title{color:#666;line-height:50px;}
+
+.pad-date-lists-items{height:150px;overflow:auto;position:relative;z-index:1;}
+.pad-date-lists-item{line-height:50px;white-space: nowrap;}
+.pad-date-overlay{
+	position: absolute;
+    z-index: 3;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 180px;
+    pointer-events: none;
+	background: -webkit-gradient(linear,left bottom,left top,from(#fff),color-stop(0.50, rgba(40,40,40,0)),to(#fff));
+	background: -webkit-linear-gradient(#fff,rgba(40,40,40,0) 50%,#fff);
+	background: -moz-linear-gradient(#fff,rgba(40,40,40,0) 50%,#fff);
+	background: linear-gradient(#fff,rgba(40,40,40,0) 50%,#fff);
+}
+
+.pad-date-line-top,.pad-date-line-bottom{
+	position:absolute;
+	left:20px;
+	right:20px;
+	height:1px;
+	z-index:10;
+	background: -moz-linear-gradient(left, #ace, #f96 5%, #ace, #f96 95%, #ace);
+	background: -webkit-gradient(linear, left top, right top, from(#ace), color-stop(0.05, #f96), color-stop(0.5, #ace), color-stop(0.95, #f96), to(#ace));
+	background: -webkit-linear-gradient(left, #fff, #ddd 20%, #ccc, #ddd 80%, #fff);
+	background: -o-linear-gradient(left, #ace, #f96 5%, #ace, #f96 95%, #ace);
+	background: linear-gradient(left, #ace, #f96 5%, #ace, #f96 95%, #ace);
+}
+.pad-date-line-top{top:110px;}
+.pad-date-line-bottom{top:160px;}
+
+.pad-date-picker{float:left;min-width:120px;text-align:center;position: relative;margin:10px;}
+.pad-date-min-content{margin-top:20px;overflow:hidden;position:relative;clear:both;}
+.pad-date-selected-time,.pad-date-selected-now{float:left;width:50%;line-height:60px;text-align:center;position:relative;font-weight:bold;}
+.pad-date-min-line{position:absolute;top:5px;bottom:5px;left:50%;width:1px;background-color:#999;}
+.pad-date-selected-now .xms-selected-icon{left:40px;top: 22px;background-size:90%;}
+
+.pad-date-picker-date{width:200px;}
+.pad-date-picker-footer{line-height:50px;text-align:center;margin-left:20px;margin-right:20px;padding-bottom:20px;}
+.pad-date-picker-cancel,.pad-date-picker-apply{width:40%;float:left;color:#999;border:1px solid #999;border-radius:8px;box-sizing: border-box;}
+.pad-date-picker-apply{color:#007aff;border-color:#007aff;margin-left:4%;margin-right:6%;}
+.pad-date-picker-cancel{margin-left:6%;margin-right:4%;}
+/*成功短信的模板*/
+.pad-sms-content-containter{background-color:#efeff4;}
+.pad-sms-content-cantainter{background-color:#fff;position:relative;padding-bottom: 10px;}
+.pad-sms-content-content-header{border-bottom:1px dashed #666;line-height:40px;/*font-size:18px;*/font-size: 0.9rem;color:#6b6b6b;padding-left:15px;padding-right:5px;box-sizing: border-box;}
+.pad-sms-content-content-detail{padding:5px 15px;/*font-size:24px;*/font-size: 1.2rem;line-height: 28px;}
+.pad-sms-content-content-footer{font-size: 0.9rem;line-height:24px;text-align:right;padding-left:15px;padding-right:60px;position: relative;}
+
+.pad-sms-content-delete{position:absolute;right:-110px;width:110px;top:0px;bottom:0px;background-color:#f8285c;color:#fff;text-align:center;font-size: 24px;}
+.pad-sms-content-delete-word{line-height:40px;position:absolute;top:50%;margin-top:-20px;left:0px;right:0px;}
+.pad-list-delete{left:-110px;}
+
+.xms-selected-icon {position: absolute;top: 30%;margin-top: -9px;left: 0px;width: 30px;height: 30px;border-radius: 100%;background-position: center center;background-repeat: no-repeat;background-size: 100%;background-image: url(../img/icon-radio.png);}
+.xms-radio-item.active .xms-selected-icon ,.xms-checkbox-item.active .xms-selected-icon{background-image: url(../img/icon-radio-active.png);}
+
+.pad-sms-custom-templete-name{font-size:0.9rem;margin-bottom:5px;margin-top:2px;color:#222;}
+
+/*列表页，启用和禁用某一个模板消息的按钮*/
+.pad-sms-open-close{float:left;line-height:24px;margin-top:9px;color:#999;/*font-size: 24px;*/font-size: 1.2rem;}
+.pad-sms-open-close .xms-radio-item{float:left;border:1px solid #999;padding-left:5px;padding-right:5px;cursor: pointer;}
+.pad-sms-open-close .xms-radio-item.active{background-color:#007aff;color:#fff;border-color:#007aff;}
+	
+/*成功页，是否发送餐位号相关的样式*/
+.pad-sms-send-table-id{position:relative;}
+.pad-sms-send-table-id .xms-checkbox-item{padding-left:20px;position:relative;}
+.pad-sms-send-table-id  .xms-selected-icon{background-size: 80%;}
+	
+/*xmsBox的弹出层，进行自定义的情况*/	
+.pad-sms-xmsbox-small .xms-box-alert{width:360px;padding:15px;background-color:#fff;font-size:1.2rem;border-radius:0px;}
+.pad-sms-xmsbox-small .xms-box-close{display:none;}
+.pad-sms-xmsbox-small .xms-box-title{padding:0px 0px 10px 0px;position:relative;}
+.pad-sms-xmsbox-small .xms-box-text{padding:10px 0px 10px 0px;font-size: 1.2rem;}
+.pad-sms-xmsbox-small .xms-box-footer{padding:10px 0px;}
+
+.pad-sms-xmsbox-small .pad-header-text{position:relative;z-index:2;color:#999;background-color:#fff;padding-left:10px;padding-right:10px;}
+.pad-sms-xmsbox-small .pad-header-small-line{position:absolute;top:50%;left:0px;right:0px;height:1px;margin-top:-5px;background-color:#999;z-index:1;}
+
+.pad-sms-xmsbox-small .pad-footer-apply{border:1px solid #007aff;border-radius:5px;margin-left:20px;margin-right: 10px;line-height:40px;color: #007aff;cursor: pointer;}
+.pad-sms-xmsbox-small .pad-footer-cancel{border:1px solid #999999;border-radius:5px;margin-right:20px;margin-left: 10px;line-height:40px;cursor: pointer;}
+.pad-sms-xmsbox-small .pad-footer-cancel.pad-footer-history{border-color: #007aff;color: #007aff;cursor: pointer;}
+
+.pad-sms-xmsbox-big .xms-box-alert{width:1000px;background-color:#fff;font-size:1.2rem;border-radius:0px;}
+.pad-sms-xmsbox-big .xms-box-close{display:none;}
+.pad-sms-xmsbox-big .xms-box-title{padding:15px 0px;width:300px;margin-left:auto;margin-right:auto;position:relative;}
+.pad-sms-xmsbox-big .xms-box-text{padding:0px;position:relative;/*padding-right:20px;*/color: #333;/*overflow: hidden;*/}
+.pad-sms-xmsbox-big .xms-box-footer{padding:10px 0px;}
+
+.pad-sms-xmsbox-big .pad-header-text{position:relative;z-index:2;color:#999;background-color:#fff;padding-left:20px;padding-right:20px;font-size: 1.2rem;}
+.pad-sms-xmsbox-big .pad-header-small-line{position:absolute;top:50%;left:0px;right:0px;height:1px;background-color:#999;z-index:1;}
+.pad-sms-xmsbox-big .xms-box-btn{display: inline-block;width: 150px;}
+.pad-sms-xmsbox-big .pad-footer-apply{border:1px solid #007aff;background-color: #007aff;color: #FFFFFF;border-radius:5px;margin-left:10px;line-height:44px;cursor: pointer;}
+.pad-sms-xmsbox-big .pad-footer-cancel{border:1px solid #999999;border-radius:5px;margin-right:10px;line-height:44px;color: #999999;cursor: pointer;}
+	
+/*历史记录部分*/
+.pad-sms-search{background-color:#d5e9f5;height:72px;}
+.xms-box .pad-sms-search{height: 60px;line-height: 60px;}
+.pad-sms-search-content{height:50px;line-height:1.2rem;font-size: 1.2rem;border:1px solid #999;float:left;margin:9px 20px;width:420px;position:relative;background-color:#fff;float: right;}
+.pad-sms-search-input-area{position:absolute;left:0px;top:0px;bottom:0px;right:70px;}
+.pad-sms-search-input{position:absolute;left:0px;top:1px;bottom:0px;width:100%;border:none;outline:none;font-size: 1.2rem;padding-left: 20px;}
+.pad-sms-search-btn{position:absolute;right:0px;top:0px;bottom:0px;width:50px;background:#ff9500 url(../img/icon-search.png) center center no-repeat;background-size:70%;}
+.xms-history-btn{width: 150px;line-height: 40px;background-color: #007aff;color: #FFFFFF;border-radius: 8px;text-align: center;display: inline-block;vertical-align: middle;}
+
+/*历史记录部分的操作区域*/
+.pad-sms-history-control{float:right;font-size: 1.2rem;}
+
+.pad-sms-select-box{position:relative;float:left;}
+.pad-sms-history-control .pad-sms-select-box{/*padding:4px 10px 0px 10px;*/}
+.pad-select-box-arrow{top:-10px;/*right:10px;*/left: 112px;}
+
+.pad-select-content{line-height:50px;padding-right:20px;position:relative;min-width:90px;text-align:right;font-size: 1.2rem;}
+.pad-select-arrow{position:absolute;right:0px;top:50%;width:20px;height:20px;margin-top:-10px;background-repeat:no-repeat;background-position:center center;background-size: 100%;}
+.pad-select-items{position:absolute;top:55px;right:-90px;z-index:1;background-color:#fff;border:1px solid #999;box-shadow:0px 0px 3px 0px #999;display:none;}
+.pad-select-item{line-height:60px;border-bottom:1px solid #9d9d9d;padding-left:50px;min-width:120px;font-size: 1.2rem;width: 220px;box-sizing: border-box;position: relative;color: #333;}
+.sms-free-icon{left: 12px;}
+.pad-select-item.active,.pad-select-item:active{background-color:#ff9500;color:#fff;}
+.pad-select-item.active,.pad-select-item:active{background-color:#ff9500;color:#fff;}
+.pad-select-item.active .pad-arrow-inner ,.pad-select-item:active .pad-arrow-inner{border-bottom-color:#ff9500;}
+
+.pad-history-count{float:left;margin-left:10px;margin-right:10px;line-height: 70px;}
+
+.pad-arrow-outer{position: absolute;border-color: transparent;border-color: rgba(255,255,255,0);border-style: solid;border-width: 0 10px 10px 10px;border-bottom-color: #999;}
+.pad-arrow-inner{position: absolute;border-color: transparent;border-color: rgba(255,255,255,0);border-style: solid;border-width: 0 10px 10px 10px;border-bottom-color: #fff;left: -10px;top: 1px;}
+
+/*自定义的短信页面*/
+.pad-sms-custom-control{/*float:right;*/margin-left: 20px;}
+.pad-sms-custom-charge{background-color:#ff9500;float:left;line-height:50px;/*font-size: 24px;*/font-size: 1.2rem;margin-top:10px;text-align:center;width:150px;color:#fff;margin-right:20px;}
+.add-new-btn{background-color:#1283fe;cursor: pointer;line-height:30px;font-size: 1.2rem;text-align:center;width:150px;color:#fff;margin-right:20px;}
+
+.pad-sms-overlay-wrapper{position: absolute;top: 0px;bottom: 0px;left: 25%;right: 0px;z-index: 1;display:none;}
+.pad-sms-recharge-wrapper{position: absolute;top: 0px;bottom: 0px;left: 25%;right: 0px;z-index: 2;display:none;}
+.edit-trigger-tmplete{position:relative;width: 80px;height: 40px;}
+.edit-trigger-tmplete .pad-edit-text{margin-right:60px;}
+.edit-trigger-tmplete .icon-edit{position:absolute;right:5px;width:30px;height:30px;top:35%;margin-top:-10px;background-size:100%;cursor: pointer;}
+
+/*编辑自定义短信*/
+.pad-sms-submit-succ .xms-box-remind{color:#3d3d3d;background-color:#d8d8d8;box-shadow:0px 0px 2px 2px #9b9b9b;}
+.pad-sms-form-error{text-align:center;color:#f8285c;padding-top:20px;padding-bottom:20px;}
+.pad-sms-custom-edit-header{background-color:#d5e9f5;overflow:hidden;position}
+.pad-sms-module-hide{line-height:70px;color:#000;position:relative;padding-left:40px;font-size: 1.2rem;}
+.pad-sms-back{position:absolute;left:4px;width:30px;height:30px;top:30%;margin-top:-10px;background-size: 100%;}
+
+.pad-sms-edit-form{padding:10px;font-size: 1.2rem;padding-bottom: 300px;}
+.pad-sms-form-item{line-height:40px;}
+.pad-sms-form-label{float:left;margin-right: 10px;}
+.pad-sms-form-content{/*display:table-cell;*/color:#a0a0a0;position: relative;}
+.pad-sms-form-content-block{display:block;margin-left:120px;}
+
+.pad-sms-radio{padding-left:20px;overflow:hidden;}
+.pad-sms-radio .xms-selected-icon{background-size:80%;}
+.pad-sms-radio .xms-radio-item {padding-left: 30px;position: relative;float:left;margin-right:20px;}
+
+.pad-sms-form-item .pad-select-content{line-height:40px;}
+.pad-sms-form-item .pad-select-items{top:50px;}
+.pad-sms-edit-time-container{position: relative;float: left;top: 0;left: 0;width: 300px;line-height: 40px;margin-left: 20px;}
+.pad-sms-edit-model-input{border:1px solid #979797;line-height:40px;background-color:#fff;margin-left: 20px;padding: 0 10px;box-sizing: border-box;}
+.pad-sms-edit-model-input>.pad-sms-input{border:none;outline:none;width:100%;color:#000;font-size: 1.2rem;line-height: 24px;}
+.pad-sms-edit-content{border:1px solid #d9d9d9;margin-left:10px;padding-right:210px;position:relative;}
+.pad-sms-edit-model-lists{position:absolute;top:0px;bottom:0px;right:0px;border-left:1px solid #d9d9d9;width:200px;}
+.pad-sms-model-header{line-height:50px;height:50px;background-color:#d8d8d8;}
+.pad-sms-model-content{position:absolute;left:0px;right:0px;top:50px;bottom:0px;}
+.pad-sms-model-content-item{border-top:1px solid #d9d9d9;line-height:50px;cursor: pointer;}
+.pad-sms-model-content-item:first-child{border-top:none;}
+.pad-sms-model-content-item:last-child{border-bottom:1px solid #d9d9d9;}
+.pad-sms-model-content-item:active{background-color:#d8ecf8;}
+.pad-sms-form-cancel,.pad-sms-form-apply{border:1px solid #999;border-radius:8px;color:#999;line-height:50px;width:200px;display:inline-block;margin-left:10px;margin-right:10px;}
+.pad-sms-form-apply{border-color:#007aff;color:#007aff;}
+.pad-sms-model-time{width: 40px;height: 40px;text-align: center;padding: 0;margin-right: 5px;border: none;color: #007aff;margin-left: 5px;}
+
+/*时间选择*/
+.pad-sms-edit-time{width: 34px;height: 34px;border: 1px solid #007aff;border-radius: 2px;line-height: 34px;margin-top: 2px;margin-right: 0px;}
+.sms-edit-select-container{position: absolute;left: 37px;z-index: 99;top: 51px;background-color: #FFFFFF;}
+.sms-edit-select-container .pad-arrow-outer{border-bottom-color: #007aff;left: 63px;}
+/*.sms-edit-select-container .pad-arrow-inner{border-width: 0 11px 10px 11px;}*/
+.pad-sms-edit-time-select{border: 1px solid #007aff;overflow: hidden;float: left;padding: 2px;border-radius: 2px;}
+.pad-sms-edit-time-select>li{float: left;width: 34px;height: 34px;line-height: 34px;border-right: 1px solid #007aff;}
+.pad-sms-edit-time-select>li.active{background-color: #007aff;color: #FFFFFF;}
+.pad-sms-edit-time-select>li:nth-child(4){border: none;}
+
+.pad-sms-form-date{position:relative;display:inline-block;padding-left:10px;}
+.pad-sms-form-time{position:absolute;width:36px;height:36px;top:25%;margin-top:-12px;right:-50px;background-size: 100%;}
+
+.pad-sms-send-class{padding:5px 30px 10px 25px;overflow:hidden;}
+.pad-sms-send-class .xms-checkbox-item,.pad-sms-selected-class,.pad-sms-selected-all-class,.pad-sms-selected-number{color:#0c81ff;border:1px solid #0c81ff;border-radius:6px;line-height:40px;width:200px;float:left;margin-right:10px;margin-bottom:10px;text-align:center;}
+.pad-sms-send-class .xms-checkbox-item.active,.pad-sms-send-class .xms-checkbox-item:active{background-color:#007aff;color:#fff;}
+
+.pad-sms-selected-class{color:#ff9500;border-color:#ff9500;clear:left;}
+.pad-sms-selected-class.active,.pad-sms-selected-class:active{background-color:#ff9500;color:#fff;}
+.pad-sms-selected-all-class{color:#666;border-color:#666;}
+.pad-sms-selected-all-class.active,.pad-sms-selected-all-class:active{background-color:#666;color:#fff;}
+.pad-sms-selected-number{border-color:#fff;border-left: 1px solid #aaa;border-radius: 0px;}
+
+.pad-sms-selected-introduce{margin-top:10px;border-top:1px dashed #979797;width:100%;float:left;padding-top:5px;text-align:center;color:#999;font-size: 18px;}
+
+.pad-sms-edit-area{resize: none;margin-top: 10px;}
+.pad-sms-edit-preview{color:#333;overflow:hidden;word-break: break-all;line-height: 24px;}
+.pad-sms-edit-preview-content{color:#666;}
+
+.pad-history-templete-list{min-height:200px;max-height:400px;background-color:#efeff4;}
+.pad-history-templete-list .pad-sms-content-content-header{border-bottom:none;}
+.pad-history-templete-list .pad-sms-content-cantainter:active{background-color:#d5e9f5;}
+.pad-history-templete-error-msg{text-align:center;margin-top:10px;color:#ccc;}
+.pad-history-xmsbox .xms-box-footer{display:none;}
+
+.pad-sms-date-picker{overflow: hidden;line-height: 70px;color: #333333;font-size: 1.2rem;float: left;}
+.pad-sms-date-start,.pad-sms-date-end{float: left;padding: 0 20px 0 10px;position: relative;}
+
+.pad-user-info-list,.pad-user-keyboard{/*min-height:200px;max-height:300px;*/}
+.pad-user-keyboard{position:absolute;right:0px;top:48px;bottom:5px;text-align:center;color:#007aff;width:20px;}
+.pad-user-keyboard>li:active{background-color:#d5e9f5;}
+.pad-user-infos .xms-box-footer{background-color:#efeff4;font-size: 24px;border-top: 1px solid #999999;padding-left: 50%;position: relative;}
+.pad-user-infos .xms-box-btn{display: inline-block;width: 170px;}
+
+.pad-user-infos-empty .xms-box-text{padding-right: 0px;}
+.pad-user-infos-empty .pad-user-keyboard{display:none;}
+
+.pad-user-info-title{line-height: 60px;padding-left: 10px;background-color: #efeff4;font-size: 24px;}
+.pad-user-info-item{overflow:hidden;line-height:50px;font-size: 1.2rem;background-color:#fff;border-bottom:1px solid #d9d9d9;padding-left: 10px;position:relative;}
+.pad-user-info-icon{position:absolute;right:20px;top:50%;margin-top:-7px;width:16px;height:16px;border:1px solid #666;background-size:90%;}
+.pad-user-info-item:active{background-color:#d5e9f5;}
+.pad-user-info-item.active .pad-user-info-icon{background-color:#007aff;border-color:#007aff;}
+.pad-user-info-name{padding-left:30px;}
+.pad-user-info-phone{padding-left:40px;}
+
+/*联系人模块*/
+.pad-user-containter{height: 380px;overflow-y: auto;width: 100%;}
+.sms-contact-selected-title{line-height: 50px;font-size: 1.2rem;color: #333333;background-color: #d8d8d8;border-bottom: 1px solid #979797;}
+.sms-contact-selected-container{height: 400px; overflow-x: hidden;overflow-y: auto;position: relative;}
+.sms-contact-selected-count{position: absolute;bottom: -80px;line-height: 72px;font-size: 1rem;color: #666;z-index: 10;top: 0px;left: 20px;}
+.pad-sms-contact-content{border-left: 1px solid #999999;box-sizing: border-box;}
+.sms-selected-contact{}
+.sms-selected-contact .pad-user-info-icon{background: url(../img/icon-contact-selected.png) center center no-repeat;background-color: #f43c6a;border-color: #f43c6a;}
+
+/*充值金额页面*/
+.pad-charge-content{padding:30px 15px 0;font-size: 1.2rem;background-color: #FFFFFF;box-sizing: border-box;height: 100%;}
+.pad-useful-items-count{font-size:1.8rem;color:#000;padding-right:5px;}
+.pad-useful-items-price{font-weight:bold;padding-right:5px;padding-left:5px;}
+.pad-recharge-options{clear:both;margin-top:60px;overflow:hidden;}
+.pad-recharge-options .xms-radio-item,.pad-recharge-options .pad-recharge-other-options{width:22%;min-width:100px;border:1px solid #999;border-radius:5px;padding:10px;text-align:center;float:left;margin-right:20px;margin-bottom:20px;color:#000;line-height: 1.5rem;cursor: pointer;}
+.pad-recharge-options .pad-recharge-other-options{line-height: 40px;font-size: 16px;font-weight: bold;}
+.pad-recharge-options .pad-recharge-option-number{color:#676767;font-size: 0.9rem;line-height: 24px;}
+
+.sms-recharge-history-btn{float: right;line-height: 40px;width: 150px;text-align: center;color: #1283fe;border: 1px solid #1283fe;border-radius: 8px;cursor: pointer;}
+.sms-recharge-history-btn:active{border-color: #1283fe;background-color: #1283fe;color: #FFFFFF;}
+.pad-footer-recharge-history{border: 1px solid #999;color: #999;border-radius: 8px;line-height: 40px;margin-left: 20px;margin-right: 10px;cursor: pointer;}
+
+.sms-recharge-history-container{font-size: 0.9rem;line-height: 24px;max-height: 320px;overflow-x: hidden;overflow-y: auto;}
+.sms-recharge-history-item{border-bottom: 1px dashed #999;padding: 5px 0;}
+.sms-recharge-history-item>li{overflow: hidden;}
+
+.pad-recharge-options .xms-radio-item.active,.pad-recharge-options .xms-radio-item.active .pad-recharge-option-number,.pad-recharge-options .xms-radio-item:active,.pad-recharge-options .pad-recharge-other-options.active,.pad-recharge-options .pad-recharge-other-options:active{border-color:#1283fe;background-color:#1283fe;color:#fff;}
+.pad-recharge-options .pad-recharge-money{font-size:1.8rem;padding-right:5px;}
+
+.pad-recharge-notice{color:#999;overflow:hidden;line-height:30px;font-size:18px;margin-top: 20px;}
+.pad-recharge-notice-name{float:left;}
+.pad-recharge-notice-detial{margin-left:90px;}
+.pad-recharge-weixin,.pad-recharge-zhifubao{width:36%;min-width:200px;line-height:70px;text-align:center;float:left;margin-top:30px;font-size:1.5rem;border-radius: 8px;cursor: pointer;}
+.pad-recharge-weixin{border:1px solid #14b630;margin-right:10px;}
+.pad-recharge-zhifubao{border:1px solid #1283fe;}
+.pad-recharge-weixin .icon-weixin,.pad-recharge-zhifubao .icon-zhifubao{display:inline-block;width:40px;height:40px;background-size:100%;vertical-align: middle;margin-right:10px;}
+
+.pad-custom-money{border:1px solid #999;position:relative;height:30px;}
+.pad-custom-money-input{border:none;outline:none;position:absolute;left:0px;top:0px;bottom:0px;width:100%;text-align:center;line-height:30px;}
+.pad-sms-recharge-wrapper .pad-sms-form-content{display:block;overflow:hidden;}
+.pad-zhifu-detail-content{background:url(../img/loading.gif) center center no-repeat;min-height:180px;position:relative;font-size:18px;}
+.pad-zhifu-detail-price{position:absolute;top:-26px;right:0px;color:#676767;}
+.pad-zhifu-detail-money{color:#000;text-align:center;margin-top:10px;}
+.pad-zhifu-detail-money .pad-zhifu-money{/*font-size:36px;*/font-size: 1.8rem;padding-right:5px;}
+.pad-zhifu-detail-sms-number{color:#999;text-align:center;}
+.pad-zhifu-detail-img{height:140px;background:#fff;text-align:center;margin-top: 40px;}
+.pad-zhifu-detail-img>.pad-zhifu-code-img{height:120px;margin:10px;}
+.pad-pay-success-img{background:#fff url(../img/pay-success.png) center center no-repeat;background-size:auto 80%;}
+.pad-zhifu-notice{color:#999;font-size: 18px;text-align: center;}
+
+.pad-zhifu-result{}
+.pad-zhifu-result-notice{font-size:18px;text-align:center;color:#979797;}
+.pad-zhifu-result-notice .icon-fanhui{display:inline-block;width:20px;height:24px;vertical-align:bottom;margin-right:5px;background-size:100%;}
+
+.pad-sms-xmsbox-big .pad-sms-edit-content{margin-left:0px;}
+.pad-error-tip{color:#f00;}
+
+.pad-send-personal-sms{text-align:center;margin:5px 0px 15px;line-height:20px;}
+.pad-send-personal-sms .icon-loadding{display:inline-block;width:20px;height:20px;background-size:100%;vertical-align:bottom;}
+
+.sms-cost-intro-container{padding-left: 20px;color: #333;font-size: 0.9rem;}
+.sms-cost-intro-container li{padding: 3px 0;}
+
+.pad-manual-send-btn{background-color: #007aff;color: #fff;line-height: 28px;padding: 2px 20px;border-radius: 6px;margin-top: 4px;}
+.sms-session-select{float: right;}
+.pad-sms-order-container{min-height: 200px;max-height:300px;border-top: 1px solid #999;border-bottom: 1px solid #999;}
+.pad-sms-order-list{padding: 10px 30px;font-size: 1rem;}
+.sms-order-item{float: left;width: 25%;box-sizing: border-box;padding: 5px;}
+.sms-order-item-con{padding:25px 10px;box-sizing: border-box;border: 1px solid #007AFF;}
+.pad-user-info-icon.pad-order-info-icon{border-color: #007AFF;right: 10px;top: 11px;}
+.icon-selected.pad-order-info-icon{background-image: none;}
+.active .pad-order-info-icon{background-image: url(../img/icon-selected.png);background-color: #007AFF;}
+.sms-order-sended{background: url(../img/pay-success.png) center center no-repeat;background-size: 80px;}
+.sms-order-item-con.active{background: none;background-color: #007AFF;color: #fff;}
+.sms-send-class-btn{background-color: #007aff;color: #fff;line-height: 28px;padding: 2px 20px;border-radius: 6px;margin-top: 4px;}
+.sms-delete-btn{background-color: #007aff;padding: 0 10px;color:#fff;line-height: 30px;border-radius: 4px;margin-top:5px;cursor: pointer;}
+
+.xms-overlay{z-index:20;}
